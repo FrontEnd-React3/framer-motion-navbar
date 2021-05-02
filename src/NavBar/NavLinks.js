@@ -96,7 +96,7 @@ const NavLinks = props => {
           transition={{
             duration: 1,
             delay: 1.25,
-            type: "spring",
+            type: "tween",
             stiffness: 39
           }}
           onClick={
